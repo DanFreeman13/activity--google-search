@@ -1,0 +1,94 @@
+
+/*Search Input
+  dimensions: 484px * 44px
+  border color: rgba(0, 0, 0, 0.16)
+  corner radius: 2px
+Icon
+  text size: 20px
+  text color: rgba(0, 0, 0, 0.4)
+  dimensions: 56px * auto
+Buttons
+  36px height
+  border color: #F2F2F2
+  fill color: #F2F2F2
+  text size: 13px
+  text style: bold
+  space between content and borders: 0 16px
+Space between input and buttons: 25px*/
+
+body {
+	background-color: #fff;
+}
+
+input {
+	width: 400px;
+	height: 40px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	display: inline-block;
+}
+
+button {
+	height: 36px;
+	border: 2px solid #F2F2F2;
+	background-color: #F2F2F2;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 0 16px;
+	margin: 12.5px;
+}
+
+h1 {
+	margin: 0 auto;
+	text-align: center;
+}
+
+img {
+	margin: 0 auto;
+	width: 484px;
+}
+
+.searchspace {
+	margin: 0 auto;
+		justify-content: center;
+		background-color: #fff;
+		width: 484px;
+		height: 44px;
+		display: flex;
+		align-items: center;
+		border: 1px solid rgba(0, 0, 0, 0.16);
+		border-radius: 2px;
+		position: relative;
+
+}
+
+.textsearch {
+	padding-left: 0;
+	width: 390px;
+}
+
+.mic {
+	position: absolute;
+	top: 0;
+	right: 2px;
+	display: inline-block;
+	height: 38px;
+	width: 40px;
+	margin: 0;
+
+
+}
+
+.fa-microphone {
+	font-size: 20px;
+	color: rgba(0, 0, 0, 0.4);
+	padding: 12px;
+
+
+
+}
+
+.buttonspace {
+	text-align: center;
+}
