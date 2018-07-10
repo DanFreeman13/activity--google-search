@@ -51,21 +51,23 @@ img {
 
 .searchspace {
 	margin: 0 auto;
-		justify-content: center;
-		background-color: #fff;
-		width: 484px;
-		height: 44px;
-		display: flex;
-		align-items: center;
-		border: 1px solid rgba(0, 0, 0, 0.16);
-		border-radius: 2px;
-		position: relative;
+	justify-content: center;
+	background-color: #fff;
+	width: 484px;
+	height: 44px;
+	display: flex;
+	align-items: center;
+	border: 1px solid rgba(0, 0, 0, 0.16);
+	border-radius: 2px;
+	position: relative;
 
 }
 
-.textsearch {
+.textinput {
 	padding-left: 0;
-	width: 390px;
+	width: 410px;
+	position: absolute;
+	left: 20px;
 }
 
 .mic {
